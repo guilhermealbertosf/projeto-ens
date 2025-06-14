@@ -31,6 +31,8 @@ header{
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.333);
+
+    transition-duration: 1s;
 }
 header > img{
     width: 100px;
@@ -39,7 +41,8 @@ header > img{
 
 header nav{
     display: flex;
-    flex-flow: row nowrap;    
+    flex-flow: row nowrap;   
+    font: normal 1em Arial; 
 }
 
 header > nav > a{
@@ -62,11 +65,13 @@ header #botaoIA{
     
     width: 100px;
     border-radius: 0%;
+
 }
 header #botaoIA > img{
     width: 40%;
     border: 3px solid #ddaa1d;
     border-radius: 50%; 
+    transition-duration: 5s;
 
 }
 header #botaoIA > p{
@@ -105,6 +110,7 @@ main  section#cursos{
     background-color: #ffffff;
     border-radius: 5px;
     padding: 10px 0px;
+
 }
 section#cursos > div.espaco-curso{
     background-color: rgb(234, 237, 248);
@@ -113,6 +119,7 @@ section#cursos > div.espaco-curso{
     border-radius: 20px;
 
     font: normal 1em Arial;
+    transition-duration: 3s;
 }   
 
 section#cursos img {
