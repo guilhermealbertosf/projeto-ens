@@ -151,3 +151,22 @@ section#projetos aside ul{
     margin-bottom: 30px;
     
 }
+
+
+
+
+
+
+
+
+footer{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #9f7918;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.748);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
