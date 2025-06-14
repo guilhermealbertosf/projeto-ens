@@ -8,7 +8,7 @@
 }
 
 :root{
-    --cor1: rgb(72, 72, 236);
+    --cor1: #4848ec;
     --cor2: blue;
     --tam1: 300px
 }
@@ -103,11 +103,16 @@ main  section#cursos{
 
     background-color: rgb(232, 242, 245);
     border-radius: 5px;
+    padding: 10px 0px;
 }
 section#cursos > div.espaco-curso{
-    background-color:rgba(228, 228, 228, 0.859);
+    background-color: #c9c9ef;
     margin: 10px;
     padding: 10px 20px;
+    border-radius: 20px;
+
+    font: normal 1em Arial;
+    
 }   
 
 section#cursos img {
@@ -118,7 +123,7 @@ section#cursos img {
 }
 
 section#projetos{
-    padding: 5px;
+    padding: 20px 10px;
     margin-top: 60px;
     background-color: rgb(255, 255, 255);
     background-color: whitesmoke;
@@ -135,4 +140,10 @@ section#projetos aside p{
     text-indent: 2em;
     margin-bottom: 30px;
     text-align: justify;
+    font: bold 1em verdana;
+}
+section#projetos aside ul{
+    margin-left: 5em;
+    margin-bottom: 30px;
+    
 }
