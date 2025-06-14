@@ -101,12 +101,12 @@ main  section#cursos{
     flex-flow: row wrap;
     justify-content: space-around;
 
-    background-color: rgb(232, 242, 245);
+    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px 0px;
 }
 section#cursos > div.espaco-curso{
-    background-color: #c9c9ef;
+    background-color: rgb(174, 186, 228);
     margin: 10px;
     padding: 10px 20px;
     border-radius: 20px;
@@ -125,12 +125,14 @@ section#cursos img {
 section#projetos{
     padding: 20px 10px;
     margin-top: 60px;
-    background-color: rgb(255, 255, 255);
-    background-color: whitesmoke;
+    background-color: #435d94ee;
 }
 section#projetos aside{
     width: 80%;
+    background-color: white;
+    border-radius: 10px;
     margin: auto;
+    padding: 20px;
 }
 section#projetos aside h2{
     margin-bottom: 30px;

@@ -13,20 +13,20 @@ aside h3{
 }
 aside p{
     font: normal 1.2em Arial;
-    line-height: 40px;
-    
+    line-height: 1.2em;
+    margin-bottom: 2em;
 }
 
 
 main > p{
     background-color: var(--cor1);
-    padding: 100px 40px 0px 40px;
-    height: 80vh;
+    padding: 5em 1em;
+    
 
-    font: bold 5vh helvetica;
+    font: bold 2em helvetica;
     color: white;
     text-shadow: 1px 1px 1px black;
-    line-height: 7vw;
+    line-height: 2em;
 }
 ul{
     margin-top: 40px;

@@ -84,15 +84,19 @@ header #botaoIA > p{
 
 
 
-
+main h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 form{
     margin: 50px auto ;
-    background-color: white;
+    background-color: rgb(185, 207, 244);
     padding: 20px;
-    width: 300px;
+    width: 90%;
+    max-width: 500px;
     border-radius: 18px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.778);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.162);
 }
 
 form input{
