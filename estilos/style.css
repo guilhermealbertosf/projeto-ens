@@ -18,28 +18,28 @@ body{
 }
 
 header{
-    background-color: white;
-    padding: 5px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
+    
     width: 90%;
+    
+    background-color: white;
+    padding: 5px;
     max-width: 1200px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.333);
 }
-header img{
+header > img{
     width: 100px;
     border-radius: 50%;
 }
 
 header nav{
     display: flex;
-    flex-flow: row nowrap;
-    
+    flex-flow: row nowrap;    
 }
 
 header > nav > a{
@@ -57,21 +57,32 @@ header > nav > a:hover{
 }
 
 header #botaoIA{
+    text-decoration: none;
+    text-align: center;
+    
     width: 100px;
-    border: 1px solid black;
     border-radius: 0%;
 }
-
 header #botaoIA > img{
-    width: 40px;
-    
+    width: 40%;
+    border: 3px solid #ddaa1d;
+    border-radius: 50%; 
+
 }
 header #botaoIA > p{
-    text-decoration: none;
     color: black;
-    text-align: center;
 }
 
+#botao-voltar{
+    background-color: var(--cor1);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#botao-voltar a{
+    text-decoration: none;
+    color: white;
+}
 
 /* MAIN */
 
@@ -84,17 +95,7 @@ main{
 h2{
     margin-bottom: 20px;
 }
-#botao-voltar{
-    background-color: var(--cor1);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-}
 
-#botao-voltar a{
-    text-decoration: none;
-    color: white;
-}
 
 main  section#cursos{
     display: flex;
@@ -106,21 +107,21 @@ main  section#cursos{
     padding: 10px 0px;
 }
 section#cursos > div.espaco-curso{
-    background-color: rgb(174, 186, 228);
+    background-color: rgb(234, 237, 248);
     margin: 10px;
     padding: 10px 20px;
     border-radius: 20px;
 
     font: normal 1em Arial;
-    
 }   
 
 section#cursos img {
     width: var(--tam1);
     height: var(--tam1);
-    
-    
+    border: 4px solid #ddaa1d;
 }
+
+/*           */
 
 section#projetos{
     padding: 20px 10px;
@@ -128,7 +129,8 @@ section#projetos{
     background-color: #435d94ee;
 }
 section#projetos aside{
-    width: 80%;
+    width: 95%;
+    max-width: 1000px;
     background-color: white;
     border-radius: 10px;
     margin: auto;
