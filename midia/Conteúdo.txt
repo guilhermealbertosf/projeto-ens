@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+Estrutura
+-----------------------------------------------------
+
+
+<HEADER>
+Logo: 		ENS+ | #113F84(Azul mais escuro) - #153474(Azul intermediário) - #4088CE(Meio azulado) -  #FFB600(Amarelado) - 
+Botões: 	login, cadastro, IA(Notion), Contatos.
+
+<MAIN>
+Frase: 		Com a ENS+ você escolhe o seu futuro.

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="shortcut icon" href="../midia/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/cadstro.css">
+    <link rel="stylesheet" href="../estilos/cadastro.css">
+</head>
+<body>
+   
+        
+    <header>
+        <img src="../midia/logo.jpg" alt="Logo">
+        <nav>
+            <a href="quem_somos.html">Quem somos</a>
+            <a href="cadastro.html">cadastro</a>
+            <a href="login.html">login</a>
+            <a href="contatos.html">Contatos</a>
+        </nav>
+        <a id="botaoIA" href="https://www.notion.com/" target="_blank">
+            <img src="../midia/iconeIA.png" alt="Botão IA">
+            <p>IA NOTION</p>
+        </a>
+        <p id="botao-voltar" href="../index.html">
+            <a href="../index.html">Voltar</a>
+        </p>
+    </header>
+
+    <main>
+        <form> 
+            <p>
+                <label>Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
+            </p>
+
+        
+            <P>
+                <label>E-mail</label>
+                <input id="iemail" type="text" placeholder="exemplo@gmail.com">
+            </P>
+            
+
+            <P>
+                <label>Senha</label>
+                <input id="isenha" type="password" placeholder="****">
+            </P>
+
+            
+                        
+            <div>
+                <input id="voltar" type="button" value="Voltar" onclick="cadastro('voltar')">
+
+                <input id="entrar" type="button" value="Entrar" onclick="cadastro('entrar')">
+            </div>
+
+        </form>
+    </main>
+    
+      
+    
+    <script src="../javascript/cadastro.js"></script>
+</body>
+</html>

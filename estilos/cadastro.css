@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor1: rgb(72, 72, 236);
+    --cor2: blue;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+header nav{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+header > nav > a{
+    background-color: rgb(254, 254, 254);
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    text-align: center;
+    padding: 10px;
+    
+    border-radius: 15px;
+}
+header > nav > a:hover{
+    background-color: rgba(202, 199, 199, 0.473);
+}
+
+header #botaoIA{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+
+header #botaoIA > img{
+    width: 40px;
+    
+}
+header #botaoIA > p{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#botao-voltar {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+form{
+    margin: 50px auto ;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.778);
+}
+
+form input{
+    margin: 20px;
+    padding: 6px;
+    color: black;
+}
+
+form div{
+   position: relative;
+
+}
+
+form div a, form div input{
+    text-decoration: none;
+    background-color: rgb(64, 119, 167);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#entrar{
+    position: absolute;
+    right: 10px;
+}
