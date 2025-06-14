@@ -87,13 +87,13 @@ hr {
 .conteiner-video{
     background-color: rgb(75, 134, 236);
     margin: 0px -20px;
-    padding: 100px 0px;
-    border-radius: 0px 20px 20px 0px;
+    padding: 30px 0px;
+    border-radius: 0px 90px 90px 0px;
 }
-.conteiner-video h2{
+.nivel > h3{
     text-align: center;
-    font: bold 2.5em Arial;
-    color: white;
+    font: bold 2em Arial;
+    color: rgb(29, 22, 1);
 }
 iframe{
     display: block;
