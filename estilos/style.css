@@ -93,8 +93,14 @@ header #botaoIA > p{
 
 main{
     margin-top: 20px;
-    background-color: white;
+    background-color: rgb(237, 237, 237);
     padding: 10px;
+    
+}
+
+#sub-main{
+    max-width: 1700px;
+    margin: auto;
 }
 
 h2{
