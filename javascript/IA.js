@@ -9,5 +9,5 @@ function ENS_IA(local){
         window.location = "../paginas/cadastro.html"
     }
     
-    window.alert("Cadastre-se para usar a IA! ")
+    window.alert("Cadastre-se para obter acesso à nossa Inteligencia Artificial ENS+")
 }
